@@ -57,7 +57,7 @@ Root *Node::getUIRoot()
     return this->root;
 };
 
-Root::Root(unsigned w = 320, unsigned h = 200, const char *title = "", bool resizable = true)
+Root::Root(unsigned w, unsigned h, const char *title, bool resizable)
 {
     this->w = w;
     this->h = h;
@@ -86,7 +86,8 @@ bool Root::setInvis(bool invis)
 
 const unsigned (&Root::getSize())[2]
 {
-    return {this->w, this->h};
+    const unsigned list[2] = {this->w, this->h};
+    return list;
 };
 
 bool Root::setSize(unsigned w, unsigned h)

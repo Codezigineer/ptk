@@ -10,7 +10,7 @@
 
 namespace PTk
 {
-    typedef Root Root;
+    class Root;
 
     typedef unsigned int Pixel;
 
@@ -85,10 +85,10 @@ namespace PTk
         bool getInvis();
         bool setSize(unsigned w, unsigned h);
         const unsigned (&getSize())[2];
-      protected:
-        String *title;
         unsigned w;
         unsigned h;
+      protected:
+        String *title;
         Pixel *icon;
         SDL_Surface *sicon;
         bool invis;

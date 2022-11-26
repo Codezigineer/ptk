@@ -6,7 +6,7 @@
 namespace PTk
 {
     namespace Prender {
-        extern bool sdlWasStarted;
+        extern bool sdlWasStarted = false;
         
         class Window {
         public:

@@ -56,7 +56,7 @@ namespace PTk
     {
       public:
         Node(Node *parent, bool parentIsRoot);
-        Node();
+        Node() {};
 
         /// @brief Gets PTk root.
         /// @return ^^^

@@ -1,7 +1,6 @@
 #ifndef PRENDER_HH_
 #define PRENDER_HH_
 
-#include <SDL2/SDL.h>
 #include <PTk/PTk.hh>
 
 namespace PTk

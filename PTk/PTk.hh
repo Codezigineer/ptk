@@ -2,7 +2,7 @@
 #define PTK_HH_
 
 #include <vector>
-#include <SDL2/SDL.h>
+#include <SDL.h>
 
 #ifndef extends
 #define extends : public 
